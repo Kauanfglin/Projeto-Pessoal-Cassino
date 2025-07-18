@@ -1,5 +1,4 @@
 
-Um site completo para análise da Blaze Double com previsões de sinais usando Inteligência Artificial 
 
 
 ### Pré-requisitos
@@ -13,13 +12,13 @@ Um site completo para análise da Blaze Double com previsões de sinais usando I
 cd blaze-analyzer
 pnpm install
 
-# Instalar dependências do backend (IA)
+# Instalar dependências do backend
 pip3 install flask flask-cors numpy
 ```
 
 ### Execução
 ```bash
-# Terminal 1: Iniciar API da IA
+# Terminal 1: Iniciar API 
 cd src
 python3 api_server.py
 
